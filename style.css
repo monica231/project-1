@@ -1,0 +1,129 @@
+
+
+title {
+    font-family: Georgia;
+    }
+
+body{
+    background-image: url("file:///Users/pkelly/Desktop/project-1/images/tile-wood.png" );
+    background-repeat: repeat;
+    background-attachment: fixed;
+    }
+
+h1 {
+    font-family: Georgia; serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1A7F8F; 
+    }
+h2 {
+    font-family: Arial; sans-serif;
+    font-size: 24px;
+    }
+h3 {
+    font-family: Georgia; serif;
+    font-size: 20px;
+    font-weight: normal;
+    color:  #1A7F8F;
+    }
+p { font-family: Arial; sans-serif;
+    font-size: 14px;
+    color: black;
+  }
+
+
+.image1 {
+  float:right;
+  padding: 0px;
+  margin-top: 0px;
+  margin-right: 30px;
+  border: 10px solid rgba(118, 155, 148, .6);
+}
+
+.site-title  {
+  background-color:#CFCAAD;
+  padding: 10px;
+  margin: 0px;
+  width: 100%;
+  border-top: 20px solid rgba(118, 155, 148, .6);
+  border-bottom: 20px solid rgba(118, 155, 148, .6);
+}
+
+.nav
+  { 
+  list-style-type: none;
+  padding-left: 5px; 
+}
+
+li{
+  font-size: 18px;
+  float: left;
+  margin: 15px; 
+}
+  a:link {
+      color: #1A7F8F;
+      text-decoration: none;
+      font-weight: bold;
+        }
+  a:hover { 
+      color: #9685BA;
+      text-decoration: underline;
+        }
+  a:visited {
+     color: purple;
+        }
+
+.article {
+  float:left;
+  width: 925px;
+  margin: 0px;
+  padding: 20px;
+  background-color: #CFCAAD;
+  border: 25px solid rgba(118, 155, 148, .3); 
+}
+
+.image2 {
+    float: left;
+    margin-top: 5px;
+    margin-right: 20px;
+    border: 1px solid black;
+}
+
+.aside {
+  float: right;
+  width: 125px;
+  margin-top: 50px;
+  margin-right: 125px;
+  margin-bottom: 75px;
+  padding: 45px;
+  background-color: rgba(118, 155, 148, .6);
+  border: 15px solid #CFCAAD;
+}
+
+h2.aside-title {
+  font-family: Georgia, serif;
+  font-style: italic;
+  text-transform: lowercase;
+}
+
+p.aside-txt{
+  padding: 15px;
+  background-color: #E4DFC2;
+  font-size: 12px;
+}
+
+.image3 {
+  position:relative;
+  margin-left: 30px;
+  margin-bottom: 5px;
+  border: 1px black solid;
+}
+
+footer.clearfix {
+    clear: both;
+  }
+
+footer {
+  text-align: center;
+  padding-top: 25px;
+}
